@@ -1,0 +1,61 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+/* Navbar */
+.navbar {
+  background: #333;
+  overflow: hidden;
+  text-align: center;
+}
+.navbar a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  overflow: auto; /* clear floats */
+}
+
+/* Sidebar */
+.sidebar {
+  float: left;
+  width: 25%;
+  background: #f2f2f2;
+  padding: 15px;
+  border-right: 1px solid #ccc;
+}
+
+/* Content */
+.content {
+  float: right;
+  width: 70%;
+  padding: 15px;
+  background: #fff;
+}
+
+/* Footer */
+.footer {
+  clear: both;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

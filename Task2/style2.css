@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #f9f9f9, #e6f2ff);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Merriweather', serif;
+}
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+.header h2 {
+  margin: 5px 0 0;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+/* Navbar */
+.navbar {
+  background: #333;
+  overflow: hidden;
+  text-align: center;
+}
+.navbar a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Content */
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Image */
+.image-container {
+  text-align: center;
+  margin: 20px 0;
+}
+.image-container img {
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Lists */
+ol, ul {
+  margin-left: 20px;
+}
+ol li, ul li {
+  margin-bottom: 5px;
+}
+
+/* Links & Button */
+.links {
+  margin-top: 20px;
+  text-align: center;
+}
+.links a {
+  display: inline-block;
+  margin: 5px 10px;
+  text-decoration: none;
+  color: #003366;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: #003366;
+  color: white;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #0055cc;
+}
